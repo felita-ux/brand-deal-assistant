@@ -1,0 +1,15 @@
+{
+  "name": "legacilink",
+  "owner": { "name": "LegaciLink" },
+  "metadata": {
+    "description": "Official Claude skills for LegaciLink customers."
+  },
+  "plugins": [
+    {
+      "name": "brand-deal-assistant",
+      "source": "./plugins/brand-deal-assistant",
+      "description": "Reviews brand, UGC and gifted collab offers, drafts replies to Gmail Drafts, and logs deals in Creator Portfolio Studio.",
+      "version": "1.0.0"
+    }
+  ]
+}
