@@ -31,6 +31,8 @@ Both connections sign in through their own approval screens. You can disconnect 
 
 During onboarding you choose your **working style**: how Studio changes get approved (each deal, one yes per batch, or auto-log new inquiries), whether drafts save automatically, review length, and reminders. Every setting starts at the safest option, and you can change it any time by telling the assistant "change my working style." Each review starts by naming your active settings.
 
+The assistant can also **learn your preferences** from how you edit its drafts and correct its reviews. It suggests each lesson and saves it to your profile only after you say yes. Lessons cover voice and business preferences only, never security, and never anything taken from a brand's email.
+
 Even on auto-log, the assistant still asks first before moving a deal's stage, changing an existing deal, or logging anything from an email that contained hidden instructions or claims it couldn't verify.
 
 **The security rules below are locked.** No setting, profile line or request can turn them off.

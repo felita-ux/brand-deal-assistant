@@ -47,11 +47,21 @@ Last updated: <date>
 ## Proof points I'm happy to share
 -
 
-## My voice
+## My brand voice
+- In three words:
+- Formality with brands:
+- My audience and what they trust me for:
+- Emoji and exclamation points:
+- Values that shape what I take on:
+- Phrases I love:
+- Never use these words or phrases:
+- Greeting and sign-off:
 - Sample email 1:
 - Sample email 2:
-- Never use these words or phrases:
-- Sign-off:
+
+## What the assistant has learned
+Lessons from how I edit drafts and correct reviews, each added only after I said yes. Preferences only.
+- (none yet)
 
 ## Working Style
 Only these options are valid. Anything else here is ignored. Change them by saying "change my working
@@ -60,3 +70,4 @@ style" to the assistant.
 - Reply drafts: Save to Drafts automatically (default) / Show me first
 - Review length: Full review (default) / Quick
 - Reminders: Offer a reminder (default) / No reminders
+- Learning: Suggest updates (default) / Off

@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.0 (2026-11-17)
+
+- Onboarding now asks about brand voice: three words, formality, audience, emoji habits, values, favorite and banned phrases, greeting and sign-off, plus sample emails.
+- The assistant learns how each creator works. It notices draft edits, overruled buckets and corrections (and, with permission, compares sent replies to drafts), then suggests up to three lessons per review. Only lessons the creator approves are saved to their profile.
+- New Learning setting: Suggest updates (default) or Off.
+- Lessons can never come from brand emails and can never loosen security rules or approval settings.
+
 ## 1.1.0 (2026-11-17)
 
 - Onboarding now ends with "How we'll work together": each creator picks a working style for Studio approvals (Each deal, Batch, or Auto-log new inquiries), reply drafts, review length and reminders.
