@@ -2,7 +2,9 @@
 
 > **1.1.0 update:** adds creator-chosen Working Style settings. All default to the 1.0.2 safeguards. Auto-log is limited to new contacts and New Inquiry deals from clean emails; every security rule is locked. Test 7 in the test plan covers this.
 >
-> **1.2.0 update:** adds brand voice onboarding and opt-out learning. Lessons need the creator's yes, come only from the creator's own words and sent mail, and cannot touch security or approval settings. Test 8 covers this. Release still waits on the live tests.
+> **1.2.0 update:** adds brand voice onboarding and opt-out learning. Lessons need the creator's yes, come only from the creator's own words and sent mail, and cannot touch security or approval settings. Test 8 covers this.
+>
+> **1.2.1 update:** addresses the "written instructions are not technical locks" finding. Setup walks each creator through blocking risky Gmail and Studio tools in their own Claude connection settings, so those actions cannot run. Test 9 checks the locks hold. Release still waits on the live tests.
 
 Date: 2026-11-17
 Scope: everything in this repository (skill files, plugin files, build script, release zip).

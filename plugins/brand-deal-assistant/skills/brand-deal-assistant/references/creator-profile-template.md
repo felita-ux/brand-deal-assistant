@@ -11,6 +11,7 @@ Last updated: <date>
 - Creator brand:
 - Creator Portfolio Studio account name (exactly as it appears in your Studio):
 - Creator Portfolio Studio location ID (filled in by the assistant after you confirm your account):
+- Connection locks (Gmail send, forward, delete and settings tools Blocked; Studio delete tools Blocked): confirmed on ___ / not set
 - Collab email:
 - Connected Gmail is the same as collab email? (yes / no, alias of ___ )
 - Gmail label for collab mail:

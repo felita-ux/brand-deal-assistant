@@ -6,7 +6,16 @@ A set of written instructions (Markdown files) that tell Claude how to review br
 
 ## Important limits
 
-These protections are written instructions that Claude follows. They are not technical locks on your connections: Gmail and your Studio connector still have whatever permissions you approved when you connected them. The approval steps listed below are there so a person checks every change before it happens.
+Most of these protections are written instructions that Claude follows. To turn the most important ones into real locks, setup walks you through your own connection settings (below). Locked tools can't run, no matter what a skill or an email says.
+
+## Lock your connections (part of setup)
+
+In Claude, open **Customize → Connectors**, choose each connector, and set its tools:
+
+- **Gmail:** tools that send, forward, delete or trash mail, or change labels, filters or settings → **Blocked**. Search, read and create drafts stay allowed.
+- **Creator Portfolio Studio:** tools that delete anything → **Blocked**. Tools that create or update records → **Needs approval** if you approve each deal; otherwise your choice.
+
+Some Claude apps may not apply these settings everywhere, so the written rules stay in place as a second layer. Every release is tested to confirm the locks hold.
 
 ## What it can access
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.1 (2026-11-17)
+
+- Security: setup now walks each creator through locking their own connections. Gmail send, forward, delete, label, filter and settings tools are set to Blocked, and Studio delete tools are set to Blocked. Locked tools cannot run, which turns the most important written rules into real locks.
+- Security: if a tool is blocked, the assistant stops there and never looks for a workaround.
+- Each review shows whether connection locks are confirmed.
+
 ## 1.2.0 (2026-11-17)
 
 - Onboarding now asks about brand voice: three words, formality, audience, emoji habits, values, favorite and banned phrases, greeting and sign-off, plus sample emails.
