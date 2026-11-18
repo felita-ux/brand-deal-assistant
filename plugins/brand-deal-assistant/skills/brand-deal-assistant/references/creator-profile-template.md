@@ -9,6 +9,7 @@ Last updated: <date>
 ## About me
 - Name:
 - Creator brand:
+- Creator Portfolio Studio account name (exactly as it appears in your Studio):
 - Collab email:
 - Connected Gmail is the same as collab email? (yes / no, alias of ___ )
 - Gmail label for collab mail:
