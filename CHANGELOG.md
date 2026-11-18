@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.2 (2026-11-17)
+
+- Connection locks moved out of the skill. They are now an optional, recommended step in each creator's own Claude connection settings, documented in SECURITY.md and the setup guide, with a clear note that they apply to all of the creator's Claude chats.
+- The skill still respects any tool a creator blocks and never works around it.
+
 ## 1.2.1 (2026-11-17)
 
 - Security: setup now walks each creator through locking their own connections. Gmail send, forward, delete, label, filter and settings tools are set to Blocked, and Studio delete tools are set to Blocked. Locked tools cannot run, which turns the most important written rules into real locks.

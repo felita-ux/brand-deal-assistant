@@ -4,7 +4,7 @@
 >
 > **1.2.0 update:** adds brand voice onboarding and opt-out learning. Lessons need the creator's yes, come only from the creator's own words and sent mail, and cannot touch security or approval settings. Test 8 covers this.
 >
-> **1.2.1 update:** addresses the "written instructions are not technical locks" finding. Setup walks each creator through blocking risky Gmail and Studio tools in their own Claude connection settings, so those actions cannot run. Test 9 checks the locks hold. Release still waits on the live tests.
+> **1.2.2 update:** connection locks are an optional, documented step in each creator's own Claude connection settings (SECURITY.md and the setup guide), not part of the skill, because they apply to every Claude chat. For creators who set them, the riskiest actions cannot run; the skill never works around a blocked tool. Test 9 checks the locks hold. Release still waits on the live tests.
 
 Date: 2026-11-17
 Scope: everything in this repository (skill files, plugin files, build script, release zip).

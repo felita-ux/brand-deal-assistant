@@ -6,35 +6,20 @@ A set of written instructions (Markdown files) that tell Claude how to review br
 
 ## Important limits
 
-Most of these protections are written instructions that Claude follows. To turn the most important ones into real locks, setup walks you through your own connection settings (below). Locked tools can't run, no matter what a skill or an email says.
+These protections are written instructions that Claude follows. Gmail and your Studio connector keep whatever permissions you approved when you connected them. For an extra layer, you can lock risky tools in your own connection settings (below).
 
-## Lock your connections (part of setup)
+## Optional: lock your connections
 
-In Claude, open **Customize → Connectors**, choose each connector, and set its tools:
+In Claude, open **Customize → Connectors**, choose a connector, and set any tool to Always allow, Needs approval or Blocked. A blocked tool can't run, whatever a skill or an email says. Recommended settings:
 
-- **Gmail:** tools that send, forward, delete or trash mail, or change labels, filters or settings → **Blocked**. Search, read and create drafts stay allowed.
-- **Creator Portfolio Studio:** tools that delete anything → **Blocked**. Tools that create or update records → **Needs approval** if you approve each deal; otherwise your choice.
+- **Gmail:** block tools that forward, delete or trash mail, or change labels, filters or settings. Blocking **send** is your call (see below).
+- **Creator Portfolio Studio:** block tools that delete anything. Set tools that create or update records to **Needs approval** if you approve each deal.
 
-Some Claude apps may not apply these settings everywhere, so the written rules stay in place as a second layer. Every release is tested to confirm the locks hold.
+Good to know:
 
-## What it can access
-
-Only what you connect in your own Claude account:
-
-| Connection | What the skill does with it |
-|---|---|
-| **Gmail** | Reads your collab emails and saves reply drafts. It never sends. |
-| **Creator Portfolio Studio** (HighLevel connector) | Creates and updates brand contacts and deals in your Gifted Journey and UGC Journey pipelines. It never marks deals won, never touches payments or agreements, and never edits automations. |
-| **Your Brand Deals project** | Reads your `creator-profile.md` for your rates, rules and voice. |
-
-Both connections sign in through their own approval screens. You can disconnect either one at any time in Claude under **Connectors**.
-
-## What it asks you to approve
-
-- **Every change to your Creator Portfolio Studio.** Before creating or updating a contact or deal, the skill shows you the exact changes, including which journey automations will start, and waits for your yes.
-- **Any email recipient it can't verify.** A reply on the brand's own thread goes to that sender. Any other address (from a forwarded message, pasted text or a "reply to" line) needs your yes first. Every draft shows its To, CC and BCC.
-- **Your Studio account.** During setup you confirm which account is yours, and the skill records its location ID. It checks that ID before every read or write.
-- **Your profile.** If you attach or paste a profile instead of keeping it in your Brand Deals project, the skill asks you to confirm it's yours. A profile sets your rates and preferences but can never change the safety rules.
+- These settings belong to your connection, not to this skill, so they apply in **every** Claude chat. If you block Gmail sending, Claude can't send email for you anywhere. Leave sending on if you use Claude to send emails; the skill never sends either way.
+- You can change or undo them any time in the same place.
+- Some Claude apps may not apply these settings everywhere, so the skill's written rules always stay on as well.
 
 ## What you can adjust, and what you can't
 
