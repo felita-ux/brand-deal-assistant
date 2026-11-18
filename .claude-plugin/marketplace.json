@@ -9,7 +9,7 @@
       "name": "brand-deal-assistant",
       "source": "./plugins/brand-deal-assistant",
       "description": "Reviews brand, UGC and gifted collab offers, drafts replies to Gmail Drafts, and logs deals in Creator Portfolio Studio.",
-      "version": "1.0.2"
+      "version": "1.1.0"
     }
   ]
 }

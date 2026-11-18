@@ -1,4 +1,6 @@
-# Security review: Brand Deal Assistant 1.0.2
+# Security review: Brand Deal Assistant 1.0.2 (updated for 1.1.0)
+
+> **1.1.0 update:** adds creator-chosen Working Style settings. All default to the 1.0.2 safeguards. Auto-log is limited to new contacts and New Inquiry deals from clean emails; every security rule is locked. Test 7 in the test plan covers this. Release still waits on the live tests.
 
 Date: 2026-11-17
 Scope: everything in this repository (skill files, plugin files, build script, release zip).

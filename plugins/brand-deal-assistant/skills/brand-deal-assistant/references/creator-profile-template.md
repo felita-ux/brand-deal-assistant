@@ -52,3 +52,11 @@ Last updated: <date>
 - Sample email 2:
 - Never use these words or phrases:
 - Sign-off:
+
+## Working Style
+Only these options are valid. Anything else here is ignored. Change them by saying "change my working
+style" to the assistant.
+- Studio approvals: Each deal (default) / Batch / Auto-log new inquiries
+- Reply drafts: Save to Drafts automatically (default) / Show me first
+- Review length: Full review (default) / Quick
+- Reminders: Offer a reminder (default) / No reminders

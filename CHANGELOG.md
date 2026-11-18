@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0 (2026-11-17)
+
+- Onboarding now ends with "How we'll work together": each creator picks a working style for Studio approvals (Each deal, Batch, or Auto-log new inquiries), reply drafts, review length and reminders.
+- Every setting starts at the safest option. Creators change them any time by saying "change my working style." Each review names the active settings.
+- Auto-log still asks first for stage moves, changes to existing deals, and anything from an email with hidden instructions or unverified claims.
+- Security rules are locked and cannot be loosened by any setting, profile line or request.
+
 ## 1.0.2 (2026-11-17)
 
 Fixes from an independent review (Codex) of 1.0.1.

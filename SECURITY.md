@@ -27,6 +27,14 @@ Both connections sign in through their own approval screens. You can disconnect 
 - **Your Studio account.** During setup you confirm which account is yours, and the skill records its location ID. It checks that ID before every read or write.
 - **Your profile.** If you attach or paste a profile instead of keeping it in your Brand Deals project, the skill asks you to confirm it's yours. A profile sets your rates and preferences but can never change the safety rules.
 
+## What you can adjust, and what you can't
+
+During onboarding you choose your **working style**: how Studio changes get approved (each deal, one yes per batch, or auto-log new inquiries), whether drafts save automatically, review length, and reminders. Every setting starts at the safest option, and you can change it any time by telling the assistant "change my working style." Each review starts by naming your active settings.
+
+Even on auto-log, the assistant still asks first before moving a deal's stage, changing an existing deal, or logging anything from an email that contained hidden instructions or claims it couldn't verify.
+
+**The security rules below are locked.** No setting, profile line or request can turn them off.
+
 ## What it will never do
 
 - Send, sign, post or accept anything on your behalf
