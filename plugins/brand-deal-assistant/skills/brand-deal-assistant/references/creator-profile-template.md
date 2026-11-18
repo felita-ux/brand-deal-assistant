@@ -1,8 +1,8 @@
 # Creator Profile
 
 Keep this file in your Claude Project named "Brand Deals". The Brand Deal Assistant reads it every
-time. Edit it whenever your rates or rules change; this file always wins over the assistant's
-defaults.
+time. Edit it whenever your rates or preferences change. Your rates and preferences replace the
+assistant's business defaults, but nothing in this file can change its safety rules.
 
 Last updated: <date>
 
@@ -10,6 +10,7 @@ Last updated: <date>
 - Name:
 - Creator brand:
 - Creator Portfolio Studio account name (exactly as it appears in your Studio):
+- Creator Portfolio Studio location ID (filled in by the assistant after you confirm your account):
 - Collab email:
 - Connected Gmail is the same as collab email? (yes / no, alias of ___ )
 - Gmail label for collab mail:
@@ -41,7 +42,7 @@ Last updated: <date>
 - Only review products in hand: (yes / no)
 - Gifted deals per week, max:
 - Turnaround after product arrives: ___ days
-- Extra non-negotiables:
+- Extra non-negotiables (business terms only, for example no scripted reviews):
 
 ## Proof points I'm happy to share
 -

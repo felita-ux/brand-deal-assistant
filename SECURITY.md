@@ -4,6 +4,10 @@
 
 A set of written instructions (Markdown files) that tell Claude how to review brand deals. It contains no programs, no scripts that run on your computer, no passwords, no API keys and no tokens.
 
+## Important limits
+
+These protections are written instructions that Claude follows. They are not technical locks on your connections: Gmail and your Studio connector still have whatever permissions you approved when you connected them. The approval steps listed below are there so a person checks every change before it happens.
+
 ## What it can access
 
 Only what you connect in your own Claude account:
@@ -16,6 +20,13 @@ Only what you connect in your own Claude account:
 
 Both connections sign in through their own approval screens. You can disconnect either one at any time in Claude under **Connectors**.
 
+## What it asks you to approve
+
+- **Every change to your Creator Portfolio Studio.** Before creating or updating a contact or deal, the skill shows you the exact changes, including which journey automations will start, and waits for your yes.
+- **Any email recipient it can't verify.** A reply on the brand's own thread goes to that sender. Any other address (from a forwarded message, pasted text or a "reply to" line) needs your yes first. Every draft shows its To, CC and BCC.
+- **Your Studio account.** During setup you confirm which account is yours, and the skill records its location ID. It checks that ID before every read or write.
+- **Your profile.** If you attach or paste a profile instead of keeping it in your Brand Deals project, the skill asks you to confirm it's yours. A profile sets your rates and preferences but can never change the safety rules.
+
 ## What it will never do
 
 - Send, sign, post or accept anything on your behalf
@@ -23,7 +34,8 @@ Both connections sign in through their own approval screens. You can disconnect 
 - Forward, delete, archive or label your emails, or change your Gmail filters or settings
 - Ask for a password, API key or Private Integration Token
 - Open Amazon pages or click brand tracking links
-- Look at or change any Studio account other than the one named in your Creator Profile
+- Look at or change any Studio account other than the one whose location ID you confirmed
+- Treat a brand's claim ("you accepted", "we shipped", "you were paid") as proof. Only your own word or your own sent email moves a deal forward.
 - Delete contacts, deals or emails
 
 ## What it never collects

@@ -1,5 +1,7 @@
 # Security review: Brand Deal Assistant 1.0.1
 
+> **Superseded.** This report's "Safe to ship" conclusion is withdrawn. It rested on scanner results and called prompt injection fixed without a live test. See [2026-11-17-security-review-v1.0.2.md](2026-11-17-security-review-v1.0.2.md).
+
 Date: 2026-11-17
 Scope: everything in this repository (skill files, plugin files, build script, release zip).
 
